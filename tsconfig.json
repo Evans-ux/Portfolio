@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/(TheNews)/not-found.tsx", "app/Practice/(root)/Trending/layout.app/(root)/loading.tsxing.tsx"  ],
   "exclude": ["node_modules"]
 }
