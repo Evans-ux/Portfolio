@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./page.module.css"
+import Cardloader from "./Practice/CardLoader/page";
 
 export default function Page() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -169,11 +170,31 @@ export default function Page() {
            </div>
            
            <div className={styles.projectGrid}>
-            
-             {/* Project 1 */}
+
+            {/* Project 1 */}
              <div className={`${styles.projectCard} ${styles.scrollreveal}`}>
                 <div className={styles.projectImage}>
-                  <img src="/newsimg.png" alt="Modern UI Dashboard" />
+                  <img src="newsimg.png" alt="Modern UI Dashboard" />
+                </div>
+                <div className={styles.projectInfo}>
+                   <div className={styles.projectMeta}>
+                     <span>2026</span>
+                     <span>Web App</span>
+                   </div>
+                   <h3>NewsHub</h3>
+                   <p>A modern full-stack news platform featuring role-based author workflows, dynamic subscriptions, and real-time content delivery.</p>
+                   <div className={styles.projectTags}>
+                     <span>Next.js</span>
+                     <span>Supabase</span>
+                   </div>
+                   <button className={styles.projectLink}>View Case Study ↗</button>
+                </div>
+             </div>
+
+             {/* Project 2 */}
+             <div className={`${styles.projectCard} ${styles.scrollreveal}`}>
+                <div className={styles.projectImage}>
+                  <img src="/image/download.jpg" alt="Modern UI Dashboard" />
                 </div>
                 <div className={styles.projectInfo}>
                    <div className={styles.projectMeta}>
@@ -190,7 +211,7 @@ export default function Page() {
                 </div>
              </div>
 
-             {/* Project 2 */}
+             {/* Project 3 */}
              <div className={`${styles.projectCard} ${styles.scrollreveal}`}>
                 <div className={styles.projectImage}>
                   <img src="/image/download.jpg" alt="E-commerce Experience" />

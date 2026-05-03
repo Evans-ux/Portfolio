@@ -2,7 +2,7 @@
 
 import styles from "./loader.module.css"
 
-export default function page(){
+export default function Cardloader(){
   return( 
   <div style={ 
     {margin: "0",
