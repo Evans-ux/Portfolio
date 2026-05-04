@@ -1,4 +1,4 @@
-import { generateId } from "@/app/Practice/(root)/mathutils"
+import { generateId } from "@/app/Practice/Form/mathutils"
 import { ArrowLeft, ArrowRight, Link } from "lucide-react"
 import { ThemeProvider } from "next-themes"
 import Image from "next/image"

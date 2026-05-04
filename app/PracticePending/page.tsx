@@ -2,7 +2,7 @@
 import React from 'react'
 import { useActionState, startTransition } from 'react'
 import { Loader } from 'lucide-react'
-import FetchData from '@/components/_components/actions/FetchData'
+import FetchData from '@/components/actions/FetchData'
 import { Button } from '@/components/ui/button'
 
 const page = () => {

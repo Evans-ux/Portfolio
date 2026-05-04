@@ -1,6 +1,6 @@
 "use client"
 import { Suspense } from "react";
-import LoadingIndicator from "./Practice/loading-indicator";
+ 
 import { ClipLoader } from "react-spinners";
 import { Loader } from "lucide-react";
 
@@ -13,7 +13,7 @@ export default function Loading() {
                         <p className="text-white text-center mt-4 font-medium">Loading .....</p>
                     </div>
                 </div>}>
-        <LoadingIndicator />
+      
       </Suspense>
     </div>
   );

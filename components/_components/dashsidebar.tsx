@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { LoginComponent } from './LoginComponent'
-import { LoginUser } from './actions/LoginAction'
+import { LoginUser } from '../actions/LoginAction'
 
 const Dashsidebar = () => {
   return (

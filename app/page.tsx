@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./page.module.css"
-import Cardloader from "./Practice/CardLoader/page";
+import Cardloader from "./CardLoader/page";
 
 export default function Page() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
