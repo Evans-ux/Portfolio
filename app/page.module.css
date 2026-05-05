@@ -560,6 +560,14 @@
 }
 
 @media (max-width: 992px) {
+  .projectCard, .projectCard:nth-child(even) {
+    display: block;
+  }
+
+  .projectCard:nth-child(even) .projectImage {
+    order: unset;
+  }
+
   .projectImage {
     width: 100%;
     border-radius: 1.5rem;
@@ -568,13 +576,13 @@
     position: relative;
     aspect-ratio: 16/10;
     margin-bottom: 1.5rem;
-    max-height: 280px;
   }
 
   .projectImage img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
   }
 
   .projectGrid {
@@ -584,13 +592,8 @@
     margin-top: 2rem;
   }
 
-  .projectCard, .projectCard:nth-child(even) {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .projectCard:nth-child(even) .projectImage {
-    order: -1;
+  .projectInfo {
+    padding: 0;
   }
 
   .projectInfo h3 {
