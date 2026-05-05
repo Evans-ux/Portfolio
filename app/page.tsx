@@ -36,6 +36,7 @@ export default function Page() {
       { threshold: 0.1 }
     );
 
+
     const elementsToReveal = document.querySelectorAll(`.${styles.scrollreveal}, .${styles.imgcont}`);
     elementsToReveal.forEach((el) => observer.observe(el));
 
