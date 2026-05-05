@@ -560,6 +560,22 @@
 }
 
 @media (max-width: 992px) {
+  .projectImage {
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  aspect-ratio: 16/10;
+  margin-bottom: 2;
+}
+
+  .projectGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 4rem;
+}
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
